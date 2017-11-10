@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    The Purpose of this exercize was to display my knowledge in JavaScript syntax.
+    While I was trained in business logic programming with C#, I am more than able to apply it here. <br />
+    <script> //string output
+        document.write("Hello World <br />")
+    </script>
+    <script>//defining variable
+        var variable = 5 + 8;
+        document.write(variable); //string conversion is automatic
+    </script>
+    <script>//concatenation
+        var words = "This is";
+        var moreWords = "a sentence";
+        var sentence = words + " " + moreWords;
+        document.write(sentence + "<br />");
+    </script>
+    <script> //object properties
+        var alpha = "ABCDEFG";
+        var length = alpha.length
+        document.write(length + "<br />");
+    </script>
+    <script> //object methods
+        var alpha2 = "WXYZ";
+        var result = alpha2.substring(0, 3);
+        document.write(result + "<br />");
+    </script>
+    <script> //arrays
+        var a = new Array(3);
+        a[0] = 0;
+        a[1] = 1;
+        a[2] = 2;
+        var result = a[0] + a[1] + a[2];
+        document.write(result + "<br />");
+    </script>
+    <script> //if statements
+        var name = "Rakesh";
+        if (name == "Rakesh") {
+            document.write(name + "<br />");
+        }
+    </script>
+    <script>//for loop
+        for (i = 0; i < 5; i++) {
+            document.write(i);
+        }
+    </script>
+</body>
+</html>
